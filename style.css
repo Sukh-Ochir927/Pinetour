@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-image: url("./image/HeroImage\ \(6\).png");
+  height: 773px;
+  width: 1440px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.PNLOGO {
+  display: flex;
+  width: 100px;
+  height: 34px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  height: 100px;
+}
+.header1 {
+  display: flex;
+  gap: 24px;
+  font-family: "inter";
+  font-size: 18px;
+  width: 392px;
+  align-items: center;
+  justify-content: right;
+}
+.HDtail {
+  background-color: white;
+  border-radius: 100%;
+  color: black;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  margin: 116px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 69px;
+
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.location {
+  background-image: url("./image/Location\ image.png");
+  height: 512px;
+  width: 1440px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+  color: #fdfdfecc;
+}
+
+.logo {
+  margin-left: 118px;
+}
+h1 {
+  font-size: 80px;
+  color: #e8edf2b8;
+}
+h2 {
+  font-size: 250px;
+  color: #fdfdfe;
+}
+h3 {
+  font-size: 64px;
+  color: #e8edf2b8;
+  font-weight: 900;
+}
+.card {
+  display: flex;
+  width: 275.5px;
+  height: 370px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-items: center;
+  border-radius: 30px 50px;
+  box-shadow: -8px 8px #29728b40, 8px 8px #1f72aa75;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  text-align: center;
+  text-shadow: 0px 4px #000000a6;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bg1 {
+  background-image: url(./image/1.png);
+  margin-left: 120px;
+}
+
+.bg2 {
+  background-image: url(./image/2.png);
+}
+.bg3 {
+  background-image: url(./image/3.png);
+}
+.bg4 {
+  background-image: url(./image/4.png);
+  margin-right: 120px;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.overlay:hover {
+  background-color: rgba(41, 41, 41, 0.4);
+  color: white;
+}
+.map {
+  display: flex;
+  background-image: url("./image/Roadmap\ image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1022px;
+  width: 1440px;
+  margin: auto;
+  flex-direction: column;
+  /* margin-top: 59px; */
+}
+
+.header2 {
+  display: flex;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  height: 24px;
+  width: 1440px;
+  justify-content: center;
+  margin-bottom: 59px;
+  margin-top: 10px;
+}
+.title {
+  color: black;
+  font-size: 42px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+
+  margin-top: 120px;
+
+  /* flex-direction: column; */
+}
+.bgcolor {
+  background-color: #eee9d9;
+}
+.bgcolor1 {
+  background-color: #8bb8c1cc;
+}
+.bgcolor2 {
+  background-color: #aad8d7cc;
+}
+.bgcolor3 {
+  background-color: #8bc0bdcc;
+}
+.bgcolor4 {
+  background-color: #97cce0cc;
+}
+
+.list {
+  display: flex;
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 120px;
+}
+.mainlist {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  height: 540px;
+  width: 513px;
+  justify-content: start;
+  margin-top: 59px;
+}
+
+.days {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 14px;
+  height: 48px;
+  width: 52px;
+  display: flex;
+  margin-right: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.Aimakg {
+  font-size: 24px;
+  margin-left: 30px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+.secondary {
+  margin-left: 30px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.rightside {
+  width: 647px;
+  height: 640px;
+  border: black 2px solid;
+  display: flex;
+  flex-direction: row;
+}
