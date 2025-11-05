@@ -190,16 +190,24 @@ h3 {
   justify-content: center;
   align-items: center;
   justify-content: space-between;
-  margin-left: 120px;
 }
 .mainlist {
   display: flex;
   gap: 20px;
   flex-direction: column;
-  height: 540px;
-  width: 513px;
+
   justify-content: start;
-  margin-top: 59px;
+}
+.roadmap {
+  display: flex;
+  flex-direction: row;
+  height: 640px;
+  width: 1200px;
+  justify-content: start;
+
+  border: 2px solid black;
+  margin-left: 120px;
+  position: relative;
 }
 
 .days {
@@ -214,7 +222,7 @@ h3 {
   align-items: center;
   justify-content: center;
 }
-.Aimakg {
+.Aimakg1 {
   font-size: 24px;
   margin-left: 30px;
   font-family: "Inter", sans-serif;
@@ -223,6 +231,15 @@ h3 {
   font-style: normal;
   text-align: center;
 }
+.Aimakg {
+  font-size: 18px;
+  margin-left: 30px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .secondary {
   margin-left: 30px;
   font-size: 14px;
@@ -237,4 +254,111 @@ h3 {
   border: black 2px solid;
   display: flex;
   flex-direction: row;
+}
+
+.flex {
+  display: flex;
+}
+.hidden {
+  display: none;
+  position: absolute;
+  left: 929.5px;
+  bottom: 315px;
+  right: 300px;
+}
+
+.list:hover {
+  cursor: pointer;
+  border: 5px solid white;
+}
+
+.list:hover ~ .hidden {
+  display: block;
+}
+.mappin {
+  position: absolute;
+  left: 1046px;
+  bottom: 419px;
+}
+.hidden1 {
+  display: none;
+  position: absolute;
+  left: 760px;
+  bottom: 500px;
+  right: 600px;
+}
+.mappin1 {
+  position: absolute;
+  left: 800px;
+  bottom: 550px;
+  right: 600px;
+}
+.list1 {
+  display: flex;
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.list1:hover ~ .hidden1 {
+  display: block;
+}
+.list2 {
+  display: flex;
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.hidden2 {
+  display: none;
+  position: absolute;
+  left: 760px;
+  bottom: 500px;
+  right: 600px;
+}
+.list2:hover ~ .hidden2 {
+  display: block;
+}
+.list3 {
+  display: flex;
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.hidden3 {
+  display: none;
+  position: absolute;
+  left: 760px;
+  bottom: 500px;
+  right: 600px;
+}
+.list3:hover ~ .hidden3 {
+  display: block;
+}
+.list4 {
+  display: flex;
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.hidden4 {
+  display: none;
+  position: absolute;
+  left: 900px;
+  bottom: 400px;
+  right: 600px;
+}
+.list4:hover ~ .hidden4 {
+  display: block;
 }
