@@ -202,7 +202,9 @@ h3 {
   justify-content: center;
   align-items: center;
   justify-content: space-between;
+  border: rgba(0, 0, 0, 0) solid 5px;
 }
+
 .mainlist {
   display: flex;
   gap: 20px;
@@ -283,7 +285,7 @@ h3 {
 }
 
 .list:hover {
-  cursor: pointer;
+  /* cursor: pointer; */
   border: 5px solid white;
 }
 
