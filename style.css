@@ -40,6 +40,11 @@
   display: flex;
   align-items: center;
   margin: 116px;
+  font-family: sans-serif;
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
 }
 .hero {
   display: flex;
@@ -47,7 +52,6 @@
   justify-content: center;
   align-items: center;
   margin-top: 69px;
-
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -79,6 +83,7 @@ h3 {
   color: #e8edf2b8;
   font-weight: 900;
 }
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .card {
   display: flex;
   width: 275.5px;
@@ -88,17 +93,25 @@ h3 {
   align-items: center;
   justify-items: center;
   border-radius: 30px 50px;
-  box-shadow: -8px 8px #29728b40, 8px 8px #1f72aa75;
+  box-shadow: -6px -6px #29728b40, 6px 6px #1f72aa75;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 37px;
   text-align: center;
-  text-shadow: 0px 4px #000000a6;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: rgba(253, 253, 254, 0.8);
 }
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 .bg1 {
   background-image: url(./image/1.png);
   margin-left: 120px;
@@ -217,9 +230,13 @@ h3 {
   margin-right: 30px;
   align-items: center;
   justify-content: center;
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 .Aimakg1 {
-  font-size: 24px;
+  font-size: 18px;
   margin-left: 30px;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -243,6 +260,8 @@ h3 {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  display: flex;
+  gap: 12px;
 }
 .rightside {
   width: 647px;
@@ -258,8 +277,8 @@ h3 {
 .hidden {
   display: none;
   position: absolute;
-  left: 929.5px;
-  bottom: 315px;
+  left: 924.8px;
+  bottom: 312.5px;
   right: 300px;
 }
 
@@ -279,9 +298,10 @@ h3 {
 .hidden1 {
   display: none;
   position: absolute;
-  left: 760px;
+  left: 695px;
   bottom: 500px;
   right: 600px;
+  top: -25px;
 }
 .mappin1 {
   position: absolute;
@@ -289,6 +309,22 @@ h3 {
   bottom: 550px;
   right: 600px;
 }
+.mappin2 {
+  position: absolute;
+  left: 655px;
+  bottom: 458px;
+}
+.mappin3 {
+  position: absolute;
+  left: 800px;
+  bottom: 400px;
+}
+.mappin4 {
+  position: absolute;
+  left: 630px;
+  bottom: 640px;
+}
+
 .list1 {
   display: flex;
   width: 513px;
@@ -313,9 +349,8 @@ h3 {
 .hidden2 {
   display: none;
   position: absolute;
-  left: 760px;
-  bottom: 500px;
-  right: 600px;
+  left: 586px;
+  bottom: 320px;
 }
 .list2:hover ~ .hidden2 {
   display: block;
@@ -332,9 +367,8 @@ h3 {
 .hidden3 {
   display: none;
   position: absolute;
-  left: 760px;
-  bottom: 500px;
-  right: 600px;
+  left: 716px;
+  bottom: 382px;
 }
 .list3:hover ~ .hidden3 {
   display: block;
@@ -348,19 +382,19 @@ h3 {
   align-items: center;
   justify-content: space-between;
 }
+
 .hidden4 {
   display: none;
   position: absolute;
-  left: 900px;
-  bottom: 400px;
-  right: 600px;
+  left: 528px;
+  bottom: 518px;
 }
 .list4:hover ~ .hidden4 {
   display: block;
 }
 .footer {
   background-image: url("./image/Footer.png");
-  width: 1440px;
+  width: 1442px;
   height: 1120px;
   margin: auto;
   justify-items: center;
@@ -370,6 +404,7 @@ h3 {
   font-size: 42px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
+  margin-top: 118px;
 }
 
 .footerheader1 {
@@ -394,7 +429,7 @@ li::before {
   height: 527px;
   border-radius: 40px;
   background-color: rgba(250, 251, 252, 1);
-  border-radius: 40px;
+  display: block;
   display: flex;
   flex-direction: column;
 }
@@ -403,6 +438,7 @@ li::before {
   justify-items: center;
   align-items: center;
   flex-direction: column;
+  gap: 10px;
 }
 
 .priceboxborder {
@@ -410,12 +446,122 @@ li::before {
   width: 1200px;
   height: 527px;
   gap: 24px;
+  margin-top: 79px;
 }
 .price {
   font-size: 40px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-style: bold;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #919191;
+}
+.boxheader {
+  gap: 16px;
+  height: 92px;
+  width: 384px;
+  align-items: center;
+}
+.pricingtext {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.pricebox-content {
+  margin-left: 24px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+.content-container {
+  display: flex;
+}
+li {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: medium;
+  color: #3f4145;
+}
+.including {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.including1 {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #121316;
+}
+.button {
+  width: 336px;
+  height: 48px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  box-shadow: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 32px;
+  border: none;
+  border-radius: 50px;
+  background-color: #a4d1e2;
+  margin-top: 29px;
+}
+.boxshadow:hover {
+  box-shadow: -8px -8px #2e414766, 8px 8px #1f72aa75;
+}
+.boxshadow:hover .button {
+  background-color: black;
+  color: white;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+}
+.realfooter {
+  width: 1440px;
+  height: 204px;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.socialicons {
+  background-color: #fafbfc;
+  border-radius: 50px;
+  height: 44px;
+  width: 171px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #6972b5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  gap: 10px;
+  font-style: Bold;
+}
+.margin-left {
+  margin-left: 120px;
+  display: flex;
+  gap: 20px;
+}
