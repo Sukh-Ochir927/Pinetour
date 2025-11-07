@@ -520,14 +520,13 @@ ul {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  box-shadow: none;
   cursor: pointer;
-  display: inline-block;
   padding: 15px 32px;
   border: none;
   border-radius: 50px;
   background-color: #a4d1e2;
-  margin-top: 29px;
+  margin-bottom: 48px;
+  margin-top: 37px;
 }
 .boxshadow:hover {
   box-shadow: -8px -8px #2e414766, 8px 8px #1f72aa75;
@@ -536,10 +535,15 @@ ul {
   background-color: black;
   color: white;
 }
-.button:hover {
+.boxshadow:hover .button1 {
   background-color: black;
   color: white;
 }
+.boxshadow:hover .button2 {
+  background-color: black;
+  color: white;
+}
+
 .realfooter {
   width: 1440px;
   height: 204px;
@@ -567,4 +571,56 @@ ul {
   margin-left: 120px;
   display: flex;
   gap: 20px;
+}
+.popular {
+  display: flex;
+  background-color: rgba(105, 114, 181, 1);
+  border-radius: 40px;
+  color: white;
+
+  width: 91px;
+  height: 27px;
+  align-items: center;
+  justify-content: center;
+}
+.random {
+  display: flex;
+  justify-content: space-between;
+  width: 336px;
+  height: 27px;
+  justify-content: baseline;
+  align-items: baseline;
+  font-family: "inter";
+}
+.button1 {
+  width: 336px;
+  height: 48px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+  padding: 15px 32px;
+  border: none;
+  border-radius: 50px;
+  background-color: #a4d1e2;
+  margin-bottom: 48px;
+  margin-top: 17px;
+}
+.button2 {
+  width: 336px;
+  height: 48px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+  padding: 15px 32px;
+  border: none;
+  border-radius: 50px;
+  background-color: #a4d1e2;
+  margin-bottom: 48px;
+  margin-top: 26px;
 }
