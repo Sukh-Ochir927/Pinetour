@@ -395,11 +395,12 @@ h3 {
   display: block;
 }
 .footer {
-  background-image: url("./image/Footer.png");
-  width: 1442px;
+  background-image: url("./image/Price&Footer\ image\ \(5\).png");
+  width: 1440px;
   height: 1120px;
   margin: auto;
   justify-items: center;
+  background-color: white;
 }
 
 .footerheader {
